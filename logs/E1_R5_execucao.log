@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 8010: root refcnt 13 limit 1000 rate 200Mbit
+Experimento: E1
+Repetição: 5
+Banda: 200 Mbps
+Atraso: 0 ms
+Perda configurada: 0%
+Tráfego de fundo: sem
+Duração: 60 s
+PCAP router: ./capturas/E1_R5_router.pcap
+PCAP client1: ./capturas/E1_R5_client1.pcap
+Log ffmpeg: ./logs/E1_R5_ffmpeg.log
+Log iperf3: ./logs/E1_R5_iperf3.log
+----------------------------------------
+

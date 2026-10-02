@@ -1,0 +1,37 @@
+# Arquivo de vídeo usado nos experimentos
+videos/*.mp4
+videos/*.mkv
+videos/*.avi
+videos/*.mov
+
+# PCAPs das capturas de tráfego
+capturas/*.pcap
+capturas/*.pcapng
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs temporários do sistema
+*.log.old
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

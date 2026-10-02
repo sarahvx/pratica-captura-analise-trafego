@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 8026: root refcnt 13 limit 1000 delay 50ms rate 200Mbit
+Experimento: E6
+Repetição: 2
+Banda: 200 Mbps
+Atraso: 50 ms
+Perda configurada: 0%
+Tráfego de fundo: com
+Duração: 60 s
+PCAP router: ./capturas/E6_R2_router.pcap
+PCAP client1: ./capturas/E6_R2_client1.pcap
+Log ffmpeg: ./logs/E6_R2_ffmpeg.log
+Log iperf3: ./logs/E6_R2_iperf3.log
+----------------------------------------
+

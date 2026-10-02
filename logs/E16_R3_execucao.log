@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 8059: root refcnt 13 limit 1000 delay 50ms loss 10% rate 100Mbit
+Experimento: E16
+Repetição: 3
+Banda: 100 Mbps
+Atraso: 50 ms
+Perda configurada: 10%
+Tráfego de fundo: com
+Duração: 60 s
+PCAP router: ./capturas/E16_R3_router.pcap
+PCAP client1: ./capturas/E16_R3_client1.pcap
+Log ffmpeg: ./logs/E16_R3_ffmpeg.log
+Log iperf3: ./logs/E16_R3_iperf3.log
+----------------------------------------
+

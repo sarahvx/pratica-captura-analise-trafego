@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 8017: root refcnt 13 limit 1000 loss 10% rate 200Mbit
+Experimento: E3
+Repetição: 2
+Banda: 200 Mbps
+Atraso: 0 ms
+Perda configurada: 10%
+Tráfego de fundo: sem
+Duração: 60 s
+PCAP router: ./capturas/E3_R2_router.pcap
+PCAP client1: ./capturas/E3_R2_client1.pcap
+Log ffmpeg: ./logs/E3_R2_ffmpeg.log
+Log iperf3: ./logs/E3_R2_iperf3.log
+----------------------------------------
+

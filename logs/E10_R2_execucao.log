@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 803a: root refcnt 13 limit 1000 rate 100Mbit
+Experimento: E10
+Repetição: 2
+Banda: 100 Mbps
+Atraso: 0 ms
+Perda configurada: 0%
+Tráfego de fundo: com
+Duração: 60 s
+PCAP router: ./capturas/E10_R2_router.pcap
+PCAP client1: ./capturas/E10_R2_client1.pcap
+Log ffmpeg: ./logs/E10_R2_ffmpeg.log
+Log iperf3: ./logs/E10_R2_iperf3.log
+----------------------------------------
+

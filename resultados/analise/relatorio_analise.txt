@@ -1,0 +1,37 @@
+ANÁLISE DOS EXPERIMENTOS E1–E16
+======================================================================
+
+Quantidade de experimentos: 16
+Repetições por experimento: 5
+Total de execuções: 80
+
+1. THROUGHPUT
+----------------------------------------------------------------------
+Maior throughput médio: 191.000 Mbps
+Menor throughput médio: 0.733 Mbps
+
+2. RETRANSMISSÕES
+----------------------------------------------------------------------
+Maior média de retransmissões: 3374.8 (E4)
+
+3. VÍDEO
+----------------------------------------------------------------------
+FPS médio geral: 30.00
+Frames médios: 1801.00
+Bitrate médio: 1064.00 kbits/s
+
+4. PERDA OBSERVADA
+----------------------------------------------------------------------
+A perda observada foi calculada pela diferença entre a quantidade de pacotes UDP capturados no router e no client1.
+Esse valor representa a perda observada entre os dois pontos de captura e não deve ser interpretado isoladamente como prova de ausência de perda no caminho.
+
+Média geral da perda observada: 0.00%
+
+5. PCAP
+----------------------------------------------------------------------
+Tamanho médio PCAP router: 2.40 MB
+Tamanho médio PCAP client1: 2.42 MB
+
+6. CPU / PROMETHEUS
+----------------------------------------------------------------------
+Não incluído nos resultados dos experimentos porque o histórico disponível no Prometheus não cobre o período das execuções E1–E16.

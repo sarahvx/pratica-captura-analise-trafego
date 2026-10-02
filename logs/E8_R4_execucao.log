@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 8032: root refcnt 13 limit 1000 delay 50ms loss 10% rate 200Mbit
+Experimento: E8
+Repetição: 4
+Banda: 200 Mbps
+Atraso: 50 ms
+Perda configurada: 10%
+Tráfego de fundo: com
+Duração: 60 s
+PCAP router: ./capturas/E8_R4_router.pcap
+PCAP client1: ./capturas/E8_R4_client1.pcap
+Log ffmpeg: ./logs/E8_R4_ffmpeg.log
+Log iperf3: ./logs/E8_R4_iperf3.log
+----------------------------------------
+

@@ -1,0 +1,17 @@
+Banda_Mbps,Atraso_ms,Perda_configurada_percentual,Fundo,Throughput_medio_Mbps
+100,0,0,Com fundo,95.02
+100,0,0,Sem fundo,
+100,0,10,Com fundo,4.198
+100,0,10,Sem fundo,
+100,50,0,Com fundo,95.02
+100,50,0,Sem fundo,
+100,50,10,Com fundo,0.7327999999999999
+100,50,10,Sem fundo,
+200,0,0,Com fundo,191.0
+200,0,0,Sem fundo,
+200,0,10,Com fundo,6.008
+200,0,10,Sem fundo,
+200,50,0,Com fundo,190.0
+200,50,0,Sem fundo,
+200,50,10,Com fundo,0.7392000000000001
+200,50,10,Sem fundo,

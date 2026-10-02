@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 803e: root refcnt 13 limit 1000 loss 10% rate 100Mbit
+Experimento: E11
+Repetição: 1
+Banda: 100 Mbps
+Atraso: 0 ms
+Perda configurada: 10%
+Tráfego de fundo: sem
+Duração: 60 s
+PCAP router: ./capturas/E11_R1_router.pcap
+PCAP client1: ./capturas/E11_R1_client1.pcap
+Log ffmpeg: ./logs/E11_R1_ffmpeg.log
+Log iperf3: ./logs/E11_R1_iperf3.log
+----------------------------------------
+

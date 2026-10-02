@@ -1,0 +1,15 @@
+tc aplicado:
+qdisc netem 8024: root refcnt 13 limit 1000 delay 50ms rate 200Mbit
+Experimento: E5
+Repetição: 5
+Banda: 200 Mbps
+Atraso: 50 ms
+Perda configurada: 0%
+Tráfego de fundo: sem
+Duração: 60 s
+PCAP router: ./capturas/E5_R5_router.pcap
+PCAP client1: ./capturas/E5_R5_client1.pcap
+Log ffmpeg: ./logs/E5_R5_ffmpeg.log
+Log iperf3: ./logs/E5_R5_iperf3.log
+----------------------------------------
+

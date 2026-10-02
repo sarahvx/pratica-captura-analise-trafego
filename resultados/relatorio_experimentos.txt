@@ -1,0 +1,211 @@
+RELATÓRIO DOS EXPERIMENTOS
+================================================================================
+
+Os valores de throughput foram convertidos para Mbps independentemente da unidade registrada pelo iperf3.
+A perda observada corresponde à diferença percentual entre os pacotes UDP da porta 1234 capturados no roteador e no cliente.
+
+Não foram inventados valores de CPU/Prometheus, pois essas métricas não estão presentes nos arquivos analisados.
+
+--------------------------------------------------------------------------------
+E1 | Banda: 200 Mbps | Atraso: 0 ms | Perda configurada: 0% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6560
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 731194 bytes
+PCAP médio Client1: 743111 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E2 | Banda: 200 Mbps | Atraso: 0 ms | Perda configurada: 0% | Fundo: com
+Throughput iperf3: 191.00 Mbps (min=191.00, max=191.00)
+Retransmissões médias: 0.00
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6608
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 5640995 bytes
+PCAP médio Client1: 5679677 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E3 | Banda: 200 Mbps | Atraso: 0 ms | Perda configurada: 10% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5862
+Pacotes UDP vídeo - Client1: 5981
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 653506 bytes
+PCAP médio Client1: 666790 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E4 | Banda: 200 Mbps | Atraso: 0 ms | Perda configurada: 10% | Fundo: com
+Throughput iperf3: 6.01 Mbps (min=5.23, max=6.71)
+Retransmissões médias: 3374.80
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5965
+Pacotes UDP vídeo - Client1: 5988
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 4514520 bytes
+PCAP médio Client1: 4524083 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E5 | Banda: 200 Mbps | Atraso: 50 ms | Perda configurada: 0% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6529
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 727812 bytes
+PCAP médio Client1: 743111 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E6 | Banda: 200 Mbps | Atraso: 50 ms | Perda configurada: 0% | Fundo: com
+Throughput iperf3: 190.00 Mbps (min=190.00, max=190.00)
+Retransmissões médias: 0.00
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6666
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 7490618 bytes
+PCAP médio Client1: 7491084 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E7 | Banda: 200 Mbps | Atraso: 50 ms | Perda configurada: 10% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5867
+Pacotes UDP vídeo - Client1: 5992
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 653988 bytes
+PCAP médio Client1: 667921 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E8 | Banda: 200 Mbps | Atraso: 50 ms | Perda configurada: 10% | Fundo: com
+Throughput iperf3: 0.74 Mbps (min=0.62, max=0.78)
+Retransmissões médias: 402.00
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5997
+Pacotes UDP vídeo - Client1: 5997
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 1110530 bytes
+PCAP médio Client1: 1110530 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E9 | Banda: 100 Mbps | Atraso: 0 ms | Perda configurada: 0% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6560
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 731171 bytes
+PCAP médio Client1: 743111 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E10 | Banda: 100 Mbps | Atraso: 0 ms | Perda configurada: 0% | Fundo: com
+Throughput iperf3: 95.02 Mbps (min=95.00, max=95.10)
+Retransmissões médias: 0.00
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6600
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 3233410 bytes
+PCAP médio Client1: 3256844 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E11 | Banda: 100 Mbps | Atraso: 0 ms | Perda configurada: 10% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5879
+Pacotes UDP vídeo - Client1: 5999
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 655420 bytes
+PCAP médio Client1: 668838 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E12 | Banda: 100 Mbps | Atraso: 0 ms | Perda configurada: 10% | Fundo: com
+Throughput iperf3: 4.20 Mbps (min=3.81, max=4.70)
+Retransmissões médias: 2385.20
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5859
+Pacotes UDP vídeo - Client1: 5982
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 3833972 bytes
+PCAP médio Client1: 3883381 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E13 | Banda: 100 Mbps | Atraso: 50 ms | Perda configurada: 0% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6527
+Pacotes UDP vídeo - Client1: 6666
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 727560 bytes
+PCAP médio Client1: 743128 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E14 | Banda: 100 Mbps | Atraso: 50 ms | Perda configurada: 0% | Fundo: com
+Throughput iperf3: 95.02 Mbps (min=94.60, max=95.70)
+Retransmissões médias: 310.20
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 6540
+Pacotes UDP vídeo - Client1: 6613
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 7751142 bytes
+PCAP médio Client1: 7819238 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E15 | Banda: 100 Mbps | Atraso: 50 ms | Perda configurada: 10% | Fundo: sem
+Throughput iperf3: N/A (sem tráfego de fundo)
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5889
+Pacotes UDP vídeo - Client1: 6013
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 656358 bytes
+PCAP médio Client1: 670269 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+--------------------------------------------------------------------------------
+E16 | Banda: 100 Mbps | Atraso: 50 ms | Perda configurada: 10% | Fundo: com
+Throughput iperf3: 0.73 Mbps (min=0.70, max=0.78)
+Retransmissões médias: 375.40
+FPS médio: 30.00
+Frames médios: 1801
+Bitrate médio do vídeo: 1064.00 kbits/s
+Pacotes UDP vídeo - Router: 5910
+Pacotes UDP vídeo - Client1: 5986
+Perda observada média: 0.00% (min=0.00%, max=0.00%)
+PCAP médio Router: 1112398 bytes
+PCAP médio Client1: 1127145 bytes
+CPU/Prometheus: não disponível nos dados analisados.
+
+================================================================================
+FIM DO RELATÓRIO
